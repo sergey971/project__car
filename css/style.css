@@ -1,0 +1,294 @@
+/* Шрифты */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+/*  */
+/* Reset and base styles  */
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited {
+    /* color: inherit; */
+    text-decoration: none;
+    /* display: inline-block; */
+}
+
+a:hover {
+    /* color: inherit; */
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+    font-weight: inherit;
+    font-size: 16px;
+}
+
+ul, ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+img, svg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Form */
+
+input, textarea, button, select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+label {
+    cursor: pointer;
+}
+
+legend {
+    display: block;
+}
+
+a {
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ====== */
+.wrapper {}
+
+
+header {
+    position: relative;
+
+    background-image: url('./../image/background/BG\ Image.png');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    /* background-attachment: fixed; */
+}
+
+.container {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {}
+
+.header__body {}
+
+.header__top {}
+
+.header__top__row {
+    padding-top: 26px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.header__top__logo svg {
+    width: 174px;
+    height: 41px;
+}
+
+.header__top__utility {
+    margin-left: 236px;
+}
+
+.header__top__utility__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header__top__utility__hours {
+    background: url('./../image/icon/access_time_24px.svg') no-repeat;
+    line-height: 24px;
+    padding-left: 30px;
+}
+
+.header__top__utility__hours__row {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.875rem;
+
+
+}
+
+
+.header__top__utility__hours__row__title {}
+
+.title {
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 183%;
+
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+
+
+    color: #FFFFFF;
+}
+
+.header__top__utility__hours__row__text {}
+
+.text {
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 183%;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+
+    color: #FFFFFF;
+}
+
+.header__top__utility__phone {
+    margin-right: 30px;
+    background: url('./../image/icon/phone_24px.svg') no-repeat;
+    line-height: 24px;
+    padding-left: 30px;
+}
+
+.header__top__utility__phone__row {
+    display: flex;
+    flex-direction: column;
+    column-gap: 30px;
+
+}
+
+.header__top__utility__phone__row__title {}
+
+.header__top__utility__phone__row__text {}
+
+.header__top__utility__button {
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 200%;
+
+    letter-spacing: 0.15px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.button {
+    padding: 8px;
+    background: url('./../image/button__img/Button\ Treatment\ 40px.png') 150px center no-repeat;
+    background-color: #C40B0B;
+    padding-right: 40px;
+}
+
+
+/* nav */
+nav {}
+
+.nav {}
+
+.nav__body {
+    margin-top: 40px;
+    background-color: #FFFFFF;
+}
+
+.nav__row {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 18px;
+}
+
+.nav__list {}
+
+.nav__link:not(:last-child) {
+    margin-right: 37px;
+}
+
+.nav__link a {
+    color: black;
+}
+
+.nav__search {}
+
+.nav__shopping {
+    background: url('./../image/nav__item/Ellipse\ 1.jpg') 7px 0 no-repeat;
+}
+
+/* nav*/
+
+/* hero */
+.hero__body {
+    margin-top: 143px;
+    max-width: 583px;
+}
+
+.hero__text {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 100%;
+
+    color: #FFFFFF;
+}
+.button {
+    display: inline-block;
+    padding: 8px;
+    background: url('./../image/button__img/Button\ Treatment\ 40px.png') 150px center no-repeat;
+    background-color: #C40B0B;
+    padding-right: 40px;
+}
+/* /hero */
