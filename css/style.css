@@ -22,6 +22,7 @@ a, a:link, a:visited {
     /* color: inherit; */
     text-decoration: none;
     /* display: inline-block; */
+    color: #02133C;
 }
 
 a:hover {
@@ -380,8 +381,6 @@ nav {}
 /* ====== */
 .promise {}
 
-.container {}
-
 .promise__body {
     margin-bottom: 124px;
 }
@@ -598,9 +597,32 @@ nav {}
 }
 
 /* ====main */
-.make__body {
-    background: #02133C;
+.make{
+
 }
+.make__body {
+    background-color: #02133C;
+    background-image:url("./../image/make__bg/Gears\ \(2\).png");
+    position: relative;
+    background-position:right top;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.make__body::after{
+    content: "";
+    position: absolute;
+    background-image:url("./../image/make__bg/Gears\ \(3\).png");
+    background-repeat:no-repeat;
+    top: 48%;
+    z-index: -1;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
 
 .container {}
 
@@ -612,6 +634,8 @@ nav {}
     padding-bottom: 210px;
     display: flex;
 }
+
+
 
 .make__form-body {
     /* display: flex; */
@@ -741,4 +765,114 @@ nav {}
 
     text-align: center;
     color: #FFFFFF;
+}
+
+/* gallary */
+.gallary {}
+
+.container {}
+
+.gallary__body {
+    position: relative;
+    min-height: 700px;
+    z-index: 99;
+    background-color: #FFFFFF;
+}
+
+.gallary__item {
+    position: relative;
+    padding: 100px 87px 0px 87px;
+    margin-top: -116px;
+    margin-bottom: 287px;
+}
+
+.gallary__title {
+    margin-bottom: 33px;
+}
+
+.gallary__sub-title {
+    margin-bottom: 55px;
+}
+
+.gullary__media {}
+
+.gullary__list {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 44px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.493);
+    width: 97.5%;
+}
+
+#gallary:hover {
+    color: red;
+}
+
+#bay_1:hover {
+    color: red;
+}
+
+#bay_2:hover {
+    color: red;
+}
+
+#bay_2 {
+    position: relative;
+}
+
+#bay_2::after {
+    position: absolute;
+    top: -7px;
+    content: "";
+    right: -8px;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+#bay_3 {
+    position: relative;
+}
+
+#bay_3::after {
+    position: absolute;
+    content: "";
+    top: -7px;
+    right: -8px;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+#bay_3:hover {
+    color: red;
+}
+
+.gallary__image {
+    position: absolute;
+    top: 340px;
+}
+
+.gallary-live {
+    position: absolute;
+    top: 30px;
+    right: 54px;
+}
+.gallary__who{
+    width: auto;
+}
+.gallary__who::after {
+    content: "";
+    background-image: url("./../image/gullary/Icon\ Live.png");
+
+    width: 50px;
+    height: 30px;
+    position: relative;
+    z-index: 2;
+    top: -50px;
+    left: -40px;
+
 }
