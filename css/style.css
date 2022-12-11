@@ -146,7 +146,7 @@ header {
 
 }
 
-.header__top__logo svg {
+.header__top__logo  {
     width: 17.4rem;
     height: 4.1rem;
 }
@@ -984,21 +984,25 @@ header {
 
 /* impact */
 .impact {
-    background-image: url('./../image/impact/background-impact.png');
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 145.6rem;
-    height: 60.8rem;
-    width: 100%;
+
     margin-bottom: 137px;
 }
 
 .impact__container {
     position: relative;
+    max-width: 197rem;
+    margin: 0 auto;
+    padding: 0rem 1.5rem;
+    width: 100%;
+    background-image: url('./../image/impact/background-impact.png');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60.8rem;
+    width: 100%;
 }
 
-.impact__container::after {
+/* .impact__container::after {
     position: absolute;
     top: -6.5rem;
     right: 25rem;
@@ -1007,7 +1011,7 @@ header {
     height: 31.5rem;
     background: url("./../image/fotter/Image.png") 0 0 no-repeat;
 
-}
+} */
 
 .impact__item {
     padding: 11.8rem 0rem 0rem 6rem;
@@ -1029,6 +1033,14 @@ header {
 }
 
 .impact__info-body {}
+
+.impact__image{
+    position: absolute;
+    top: -6.5rem;
+    right: 25rem;
+    width: 49.8rem;
+    height: 31.9rem;
+}
 
 .impact__info-body__row {
     display: flex;
@@ -1073,7 +1085,7 @@ header {
 .impact__buttom {
     max-width: 1020px;
     position: absolute;
-    bottom: -300px;
+    bottom: -50px;
     left: 227px;
 }
 

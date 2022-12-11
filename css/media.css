@@ -1,0 +1,169 @@
+@media(max-width:1920px){
+    /* .impact__info-body__row {
+        justify-content: space-evenly;
+    }
+    .impact__info-title {
+        font-size: 6rem;
+    }
+    .impact__info-text {
+        font-size: 2.6rem;
+    } */
+    /* .impact__buttom {
+        bottom: -100px;
+        left: 500px;
+    } */
+}
+@media (max-width:1024px) {
+    header {
+        width: 100%;
+        background-position: right;
+    }
+
+    .header__top__row {
+        padding-top: 2.6rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .header__top__utility {
+        margin-left: 2.6rem;
+    }
+
+    .header__top__utility__phone {
+        margin-right: 8rem;
+    }
+
+    .who__item {
+        margin-bottom: 12.7rem;
+    }
+
+    .gallary__body {
+        margin-bottom: 19rem;
+    }
+
+    .impact__image {
+        position: absolute;
+        top: -6.9rem;
+        right: 3rem;
+        width: 49.8rem;
+        height: 31.9rem;
+    }
+
+    .our__title {
+        margin-bottom: 2.3rem;
+    }
+
+    .base-subtitle {
+        font-size: 2.6rem;
+    }
+
+    .impact__buttom {
+        left: 78px;
+    }
+}
+
+/* media 768px */
+@media (max-width:768px) {
+    html {
+        font-size: 9px;
+    }
+
+    header {
+        width: 100%;
+        background-position: right;
+        /* background-attachment: fixed; */
+    }
+
+    .header__top__logo img {
+        width: 17.4rem;
+        height: 4.1rem;
+    }
+
+    .header__top__utility__hours {
+        margin-left: 0rem;
+    }
+
+    .button {
+        padding-right: 4rem;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 0.8rem;
+        background: url(./../image/button__img/Button\ Treatment\ 40px.png) 128px center no-repeat;
+        background-color: #C40B0B;
+        padding-right: 4rem;
+    }
+    .service__row {
+        gap: 2rem 2rem;
+
+    }
+    .service__col {
+        padding: 2rem 1.4rem;
+    }
+    .make__background::after {
+        top: 58.2rem;
+        left: 21.8rem;
+    }
+    .make__form-body {
+        padding: 4.3rem 1rem 5.7rem 2rem;
+    }
+    .make__row {
+        column-gap: 4.1rem;
+    }
+    .make__button{
+        padding-right: 4rem;
+    }
+    .make__button a{
+        padding: 0rem;
+    }
+    .make__max-title {
+        font-size: 2.5rem;        
+    }
+    .make__max-number {
+        font-size: 6.6rem;
+    }
+    .gallary__image {
+        position: absolute;
+        top: 34rem;
+        left: 8rem;
+    }
+    .gallary__who {
+        width: 90%;
+    }
+    .gallary-live {
+        right: 10.4rem;
+    }
+    .our__reviews-row-col {
+        padding: 5rem 1.4rem 4rem 2.3rem;
+    }
+    .impact__image {
+        top: -9.9rem;
+        right: 7rem;
+        width: 37.8rem;
+        height: auto;
+    }
+
+    .impact__info-body__row {
+        margin-left: 2.3rem;
+    }
+    .impact__info-body__img {
+        width: 39%;
+    }
+    .impact__info-title {
+        font-size: 2.6rem;
+    }
+    .impact__buttom-body {
+        padding: 2.3rem 2.6rem;
+    }
+    .impact__buttom {
+        left: 5rem;
+    }
+    .impact__buttom-desc p {
+        width: 50.2rem;
+        font-family: Roboto;
+        font-weight: 900;
+        font-size: 2rem;
+    }
+
+}
