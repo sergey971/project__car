@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/animation.css">
     <title>Portfolio-1</title>
 </head>
 
@@ -52,19 +53,26 @@
                         <div class="nav__body">
                             <div class="nav__row">
                                 <ul class="nav__list">
-                                    <l1 class="nav__link"><a href="#">Services</a></l1>
-                                    <l1 class="nav__link"><a href="#">Specials</a></l1>
-                                    <l1 class="nav__link"><a href="#">Estimates</a></l1>
-                                    <l1 class="nav__link"><a href="#">Reviews</a></l1>
-                                    <l1 class="nav__link"><a href="#">Shop</a></l1>
-                                    <l1 class="nav__link"><a href="#">About</a></l1>
-
+                                    <l1 class="nav__link animate-charcter"><a href="#">Services</a></l1>
+                                    <l1 class="nav__link animate-charcter"><a href="#">Specials</a></l1>
+                                    <l1 class="nav__link animate-charcter"><a href="#">Estimates</a></l1>
+                                    <l1 class="nav__link animate-charcter"><a href="#">Reviews</a></l1>
+                                    <l1 class="nav__link animate-charcter"><a href="#">Shop</a></l1>
+                                    <l1 class="nav__link animate-charcter"><a href="#">About</a></l1>
                                 </ul>
                                 <div class="nav__item">
-                                    <img class="nav__search" src="./image/nav__item/search_24px.svg" alt="">
-                                    <img class="nav__shopping" src="./image/nav__item/shopping_cart_24px.svg" alt="">
+                                    <div class="nav__item-row">
+                                        <img class="nav__search" src="./image/nav__item/search_24px.svg" alt="">
+                                        <img class="nav__shopping" src="./image/nav__item/shopping_cart_24px.svg"
+                                            alt="">
+                                    </div>
                                 </div>
                             </div>
+                        </div>
+                        <div id="nav-icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
                         </div>
                     </nav>
                 </section>
@@ -243,7 +251,7 @@
                                         <input placeholder="Email" type="email" class="make__form-email">
                                         <input placeholder="Phone Number" type="text" class="make__form-number">
                                         <input placeholder="Select Service" type="text" class="make__form-service">
-                                        <textarea style="resize: none;"  class="make__form-textarea" name="" id=""
+                                        <textarea style="resize: none;" class="make__form-textarea" name="" id=""
                                             placeholder="Tell us about the car needing service(s)"></textarea>
                                     </form>
                                     <div class="make__button-position">
@@ -355,7 +363,7 @@
                 </div>
                 <div class="impact__subtitle base-subtitle">Nemo enim ipsam voluptatem quia voluptas</div>
                 <div class="impact__info-body">
-                        <img src="./image/impact/Image.png" alt="" class="impact__image">
+                    <img src="./image/impact/Image.png" alt="" class="impact__image">
                     <div class="impact__info-body__row">
                         <div class="impact__info-body__col">
                             <img class="impact__info-body__img" src="./image/impact/service-img/car_oil-24x.svg"
@@ -461,7 +469,7 @@
                                         Seattle, WA 54321</li>
                                     <li class="fotter-info" id="phone">(555) 765-4321</li>
                                     <li class="fotter-info" id="email">Info@company.com</li>
-                                    <li class="fotter-info" id="day">Mon - Sat:  7:000 am - 6:00 pm</li>
+                                    <li class="fotter-info" id="day">Mon - Sat: 7:000 am - 6:00 pm</li>
                                 </ul>
                             </div>
                         </div>
@@ -473,13 +481,20 @@
         <section class="copy">
             <div class="container">
                 <div class="copy__body">
-                <p class="tagline ">Tagline lorem ipsum dolor sit amet, consectetur adipiscing eiusmod</p>
-                <p class="terms">© 2018 Company.   Privacy Policy | Terms & Conditions</p>
+                    <p class="tagline ">Tagline lorem ipsum dolor sit amet, consectetur adipiscing eiusmod</p>
+                    <p class="terms">© 2018 Company. Privacy Policy | Terms & Conditions</p>
+                </div>
             </div>
-        </div>
         </section>
     </div>
+    <!-- Подключение jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        referrerpolicy="no-referrer"></script>
+    <!-- Подключение jQuery -->
 
+    <!-- Подключение JS файла -->
+    <script src="./js/main.js"></script>
+    <!-- Подключение JS файла -->
 </body>
 
 </html>
