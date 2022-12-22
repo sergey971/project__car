@@ -989,6 +989,8 @@ header {
 }
 
 .impact__container {
+    max-width: 1440px;
+    margin: 0 auto;
     position: relative;
     max-width: 197rem;
     margin: 0 auto;

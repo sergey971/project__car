@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
-    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./libs/fansy.min-sss/jquery.fancybox.min.css">
     <title>Portfolio-1</title>
 </head>
 
@@ -159,7 +159,7 @@
                             <div class="nemo__text">
                                 <p>Nemo enim ipsam voluptatem quia voluptas in proident</p>
                             </div>
-                            <a class="nemo__link btn" href="#">
+                            <a class="nemo__link btn" data-fancybox href="https://youtu.be/HaXHZy9Cos0">
                                 <img class="nemo__link--img" src="./image/nemo/play_arrow_24px.svg" alt="">
                             </a>
                         </div>
@@ -254,9 +254,8 @@
                                         <textarea style="resize: none;" class="make__form-textarea" name="" id=""
                                             placeholder="Tell us about the car needing service(s)"></textarea>
                                     </form>
-                                    <div class="make__button-position">
-
-                                        <div class="make__button button">
+                                    <div class="make__button-position make__button--center">
+                                        <div class="make__button button ">
                                             <a href="#">Make an Appointment</a>
                                         </div>
                                     </div>
@@ -493,6 +492,7 @@
     <!-- Подключение jQuery -->
 
     <!-- Подключение JS файла -->
+    <script src="./libs/fansy.min-js/jquery.fancybox.min.js"></script>
     <script src="./js/main.js"></script>
     <!-- Подключение JS файла -->
 </body>
