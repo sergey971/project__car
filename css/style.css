@@ -1166,10 +1166,13 @@ header {
     display: flex;
     column-gap: 1.8rem;
 }
+.fotter__link-icon{
+    transition: all .3s;
+}
 
-.fotter__col2 {}
-
-.fotter__nav-block1 {}
+.fotter__link-icon:hover{
+    transform: scale(1.5);
+}
 
 .fotter__col-title {
     margin-bottom: 2.8rem;

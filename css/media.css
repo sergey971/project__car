@@ -194,14 +194,17 @@
 
 /* media 425px */
 @media(max-width:425px) {
+
     /* burger */
-    .nav__body{
+    .nav__body {
         transform: translateY(-200%);
         transition: all .7s;
     }
+
     .nav__body.nav__body--active {
         transform: translateY(0%);
     }
+
     .animate-charcter {
         text-transform: uppercase;
         background-image: linear-gradient(-225deg,
@@ -220,12 +223,13 @@
         animation: textclip 2s linear infinite;
         display: inline-block;
     }
-    
+
     @keyframes textclip {
         to {
             background-position: 200% center;
         }
     }
+
     /* burger */
     /* burger */
     #nav-icon {
@@ -289,6 +293,7 @@
         font-size: 1.7rem;
         line-height: 122%;
     }
+
     .header__top__logo {
         margin-top: 5rem;
     }
@@ -340,60 +345,76 @@
         flex-direction: column;
         align-items: center;
     }
+
     .nav__link:not(:last-child) {
         margin-right: 0rem;
     }
+
     .nav__link a {
         font-size: 2.4rem;
         padding-top: 1rem;
         line-height: 140%;
     }
-    .nav__item{
+
+    .nav__item {
         width: 100%;
     }
-    .nav__item-row{
+
+    .nav__item-row {
         display: flex;
         justify-content: space-evenly;
     }
-    .nav__search{
+
+    .nav__search {
         width: 11%;
     }
+
     .nav__shopping {
         background: url(./../image/nav__item/Ellipse\ 1.jpg) 0.7rem 0 no-repeat;
         width: 10%;
     }
+
     .who__image {
         top: -17px;
         right: 32px;
         width: 125%;
     }
+
     .who__item {
         padding: 10rem 8.7rem 18.4rem 8.7rem;
     }
+
     .who__item {
         margin-bottom: 3.7rem;
     }
+
     .promise__row {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+
     .promise__col {
         margin-top: 2rem;
     }
+
     .nemo__text p {
         font-size: 2.6rem;
     }
+
     .nemo__body {
         background-position: -128px;
     }
+
     .nemo__text p {
         margin-top: 3.8rem;
 
     }
+
     .btn {
         top: 60px;
         left: 149px;
     }
+
     .service__row {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -401,23 +422,28 @@
     .make__form-body {
         max-width: 44.5rem;
     }
+
     .make__form-textarea {
         width: 40rem;
     }
+
     .make__button-position {
         padding-right: 1.7rem;
     }
-    .make__button--center{
+
+    .make__button--center {
         justify-content: center;
     }
 
     .gullary__list {
         flex-direction: column;
-        align-items:center;
+        align-items: center;
     }
+
     .gullary__list a {
         font-size: 2.6rem;
     }
+
     .gallary__body {
         margin-bottom: 5rem;
     }
@@ -428,29 +454,103 @@
         top: 43rem;
         left: 4rem;
     }
+
     .gallary-live {
         top: 0;
         right: 3.4rem;
     }
+
     /* our */
     .box__row {
         display: flex;
         flex-wrap: wrap;
     }
+
     /* impact */
+
     .impact__image {
         right: 4.5rem;
-
     }
+
     .impact__info-body__row {
         flex-wrap: wrap;
     }
+
     .impact__info-body__col {
         width: 17.7rem;
         margin-right: 2.4rem;
     }
+
     .impact__info-body__col {
         margin-top: 4.3rem;
 
     }
+
+    .impact__buttom {
+        left: 1rem;
+    }
+
+    .impact__buttom-body {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 405px;
+    }
+
+    .impact__buttom-desc p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .button-nemo {
+        margin-left: 94px;
+        margin-top: 20px;
+    }
+
+    /* footer */
+    .fotter__row {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .fotter__col3, .fotter__col2, .fotter__col1 {
+        padding-top: 3.3rem;
+    }
+
+    .fotter__col-title {
+        font-size: 3.4rem;
+        text-align: center;
+    }
+
+    .fotter__col2-title {
+        margin-left: 20px;
+    }
+
+    .fotter-info {
+        font-size: 2rem;
+    }
+
+    .fotter__nav-link {
+        font-size: 2.4rem;
+    }
+
+    .fotter__nav-block2 {
+        padding-top: 8rem;
+        margin-left: -7.3rem;
+    }
+
+    .fotter__logo {
+        margin-bottom: 2.3rem;
+        margin-left: 7rem;
+    }
+
+    .fotter__col-text {
+        max-width: 34.8rem;
+        font-size: 2rem;
+    }
+
+    .fotter__list {
+        column-gap: 8.8rem;
+        align-items:center;
+    }
+
 }
