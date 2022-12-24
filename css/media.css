@@ -465,6 +465,9 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .our__title {
+        margin-bottom: 1rem;
+    }
 
     /* impact */
     .impact {
