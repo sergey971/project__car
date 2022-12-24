@@ -467,6 +467,9 @@
     }
 
     /* impact */
+    .impact {
+        margin-bottom: 85px;
+    }
 
     .impact__image {
         right: 4.5rem;
@@ -550,7 +553,7 @@
 
     .fotter__list {
         column-gap: 8.8rem;
-        align-items:center;
+        align-items: center;
     }
 
 }
