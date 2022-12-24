@@ -85,7 +85,7 @@
     }
 
     .button {
-        padding-right: 4rem;
+        padding-right: 3.7rem;
     }
 
     .button {
@@ -377,6 +377,7 @@
     .who__item {
         padding: 4rem 1.7rem 18.4rem 2.7rem;
     }
+
     .who__image {
         top: -17px;
         right: 5px;
@@ -386,9 +387,11 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+
     .promise__sub-title {
         margin-bottom: 1.8rem;
     }
+
     .promise__col {
         margin-top: 2rem;
     }
@@ -441,7 +444,8 @@
     }
 
     .gallary__body {
-        margin-bottom: 5rem;
+        margin-bottom: 1rem;
+
     }
 
     /* gallary */
@@ -619,6 +623,7 @@
         margin-bottom: 1rem;
     }
 }
+
 @media (max-width:320px) {
     html {
         font-size: 8px;
