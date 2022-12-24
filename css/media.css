@@ -557,3 +557,69 @@
     }
 
 }
+
+/* media 375 */
+@media (max-width: 375px) {
+    .nemo__text p {
+        margin-top: 3.8rem;
+        padding-left: 37px;
+        text-align: center;
+    }
+
+    .btn {
+        top: 60px;
+        left: 170px;
+    }
+
+    .make__title {
+        font-size: 2.6rem;
+    }
+
+    .make__form-textarea {
+        width: 34rem;
+    }
+
+    .gallary__item {
+        position: relative;
+        padding: 3rem 1.7rem 0rem 1.7rem;
+        margin-top: -11.6rem;
+        margin-bottom: 28.7rem;
+    }
+
+    .base-title {
+        font-size: 1.8rem;
+    }
+
+    .gallary__body {
+        min-height: 60rem;
+
+    }
+
+    .gallary__image {
+        top: 34rem;
+    }
+
+    .impact__image {
+        right: 2rem;
+    }
+
+    .impact__info-body__col {
+        width: 15.7rem;
+    }
+
+    .impact__buttom-body {
+        max-width: 357px;
+    }
+
+    .button-nemo {
+        margin-left: 71px;
+    }
+
+    .fotter__item {
+        margin-bottom: 2.8rem;
+    }
+
+    .fotter__list {
+        margin-bottom: 1rem;
+    }
+}
