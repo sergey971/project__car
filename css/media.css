@@ -374,25 +374,21 @@
         width: 10%;
     }
 
+    .who__item {
+        padding: 4rem 1.7rem 18.4rem 2.7rem;
+    }
     .who__image {
         top: -17px;
-        right: 32px;
-        width: 125%;
-    }
-
-    .who__item {
-        padding: 10rem 8.7rem 18.4rem 8.7rem;
-    }
-
-    .who__item {
-        margin-bottom: 3.7rem;
+        right: 5px;
     }
 
     .promise__row {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-
+    .promise__sub-title {
+        margin-bottom: 1.8rem;
+    }
     .promise__col {
         margin-top: 2rem;
     }
